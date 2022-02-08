@@ -1,16 +1,19 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# # ТИПЫ ДАННЫХ:
+# # int, float, bool, str
+# # ФУНКЦИИ:
+# #print()
+# input() - считывает данные из консоли, которые возвращает в виде str
+# type()-возвращает тип данных аргумента
+# list()
+# help()
+# len()
+# range()
+print(type('700'))
+# Коллекция:
+# кортеж tuple() () - неизменяемые, использует разные типы данных,данные упорядочены и проиндексированы
+# списки list() []- изменяемые, используют разные типы данных, данные упорядочены и проиндексированы
+# множество set() {}- изменяемые, используют разные типы данных, данные не повторяются и не упорядочены
+# чтобы создать пустое множество, обезавтельно используем функцию set()
+# i = set() - пустое множество
+# print(type(set()))
+print(type({}))
